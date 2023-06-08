@@ -1,0 +1,255 @@
+
+
+nav{
+    background: #f3f3f3;
+    position: fixed;
+    height: auto;
+    z-index: 999;
+    margin-top: 100px;
+    width: 100% !important;
+
+    padding: 0;
+    font-family: 'Amazon Ember';
+     li a{
+        display: block;
+        height: 100%;
+        padding: 18px;
+        font-size: 16px;
+        &.products.dropdown-toggle::after {
+            display: inline-block;
+            margin-left: .255em;
+            vertical-align: .255em;
+            content: "";
+            border-top: 0;
+             border-right: 0; 
+             border-bottom: 0; 
+             border-left: 0; 
+
+        }
+    
+     }
+   
+   
+     .menu-producet{
+        .detalis-1 {
+            display: none;            
+          }
+          .detalis-2{
+            display: none;
+           
+          }
+          .detalis-3{
+            display: none;
+          }
+          .detalis-4{
+            display: none;
+          }
+          .detalis-5{
+            display: none;
+          }
+          .detalis-6{
+            display: none;
+          }
+          .detalis-7{
+            display: none;
+          }
+          .detalis-8{
+            display: none;
+          }
+          .detalis-9{
+            display: none;
+          }
+          .detalis-10{
+            display: none;
+          }
+          .detalis-11{
+            display: none;
+          }
+          .detalis-12{
+            display: none;
+          }
+
+       
+        text-align: right;
+        @media (min-width: 992px){
+          
+                position: absolute;
+                right: 119PX;
+                top:55px;
+                
+          
+        }
+        .dropstart .dropdown-toggle::before {
+        
+            position: absolute;
+             left: 0px;
+             top: 50%;
+             margin-top:-5px ;
+             left:12px;
+             opacity: 0.3;
+        }
+        .fa{
+            margin-left: 12px;
+            opacity: 0.3;
+           
+        }
+         li > a {
+            height: 40px;
+            line-height: 40px !important;
+            padding: 0px 12px;
+            font-size: 14px;
+            position: relative;
+            width: 230px;
+            color: #333;
+          
+            &:hover , &:focus{
+                color: white !important;
+                i{
+                    color: white !important;
+                    opacity:initial;
+                }
+            }
+        }
+      
+
+      }
+
+    .active ,li a.main:hover{
+       
+        background:#dc5726 ;
+        color: white;
+    }
+   
+  
+}
+
+
+
+
+
+
+// GLOBAL dDROP DOWN
+.dropdown-divider {
+    height: 0;
+    margin:  0 !important;
+    overflow: hidden;
+    border-top: 1px solid rgb(143 133 133 / 23%) !important;
+    opacity: 1;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    
+    z-index: 990;
+    border-top: 2px solid #dc5726;
+    border-radius: 0;
+   padding: 0px !important;
+   
+    
+
+}
+
+ .menu-producet .product:hover .detalis-1 {
+    display: block !important;
+    margin-top: 10px;
+ 
+}
+.menu-producet   .spread:hover .detalis-2 {
+    display: block !important;
+    margin-top: -30px !important;
+}
+.menu-producet   .accossri-man:hover .detalis-3 {
+    display: block !important;
+    margin-top: -70px !important;
+}
+.menu-producet .accossari-women:hover .detalis-4{
+    display: block !important;
+    margin-top: -110px ;
+}
+.menu-producet .bags:hover  .detalis-5{
+    display: block !important;
+    margin-top: -150px;
+}
+.menu-producet .moda:hover .detalis-6 {
+    display: block;
+    margin-top: -200px;
+}
+.menu-producet .orders-house:hover  .detalis-7{
+    display: block;
+    margin-top: -240px;
+
+}
+.menu-producet .cooks:hover .detalis-8{
+    display: block;
+    margin-top: -250px;
+
+}
+.menu-producet .chosse:hover .detalis-9{
+    display: block;
+    margin-top: -290px;
+
+}
+.menu-producet .accossari-mobial:hover .detalis-10{
+    display: block;
+    margin-top: -350px;
+}
+.menu-producet .children:hover .detalis-11{
+    display: block;
+    margin-top: -390px;
+}
+.menu-producet .general-producet:hover .detalis-12{
+    display: block;
+    margin-top: -450px;
+}
+
+.detalis-1,.detalis-2 , .detalis-3 ,.detalis-4  ,.detalis-5 , .detalis-6 ,.detalis-7 ,.detalis-8 ,.detalis-9 , .detalis-10 , .detalis-11 , .detalis-12{
+    font-family: 'Amazon Ember', arial, helvetica, sans-serif;
+    position: absolute;
+    top:0px;
+    right:230px;
+    
+    li{
+        list-style: none;
+
+    }
+    .dropdown-menu-category-section-content{
+        width:600px;
+        padding: 10px;
+
+    }
+    .dropdown-menu-category-title {
+        font-weight: 500;
+    
+        font-size: 18px;
+    }
+    .dropdown-menu-category-list > li > p {
+        font-size: 11px;
+        color: #9b9b9b;
+        margin: 0;
+        padding: 0;
+    }
+    .dropdown-menu-category-list > li > a {
+        color: #595959;
+    }
+  
+    ul li a:hover{
+        color: #dc5726 !important;
+        transition: all 0.3s ease-out;
+
+    }
+    .background-imag{
+       position: absolute;
+       bottom:-40px;
+     
+       left:0px !important;
+       
+        
+    }
+    h5 {
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+    }
+
+    
+}
+
+
+

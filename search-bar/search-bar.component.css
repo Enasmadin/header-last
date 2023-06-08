@@ -1,0 +1,219 @@
+nav {
+  background: #f3f3f3;
+  position: fixed;
+  height: auto;
+  z-index: 999;
+  margin-top: 100px;
+  width: 100% !important;
+  padding: 0;
+  font-family: "Amazon Ember";
+}
+nav li a {
+  display: block;
+  height: 100%;
+  padding: 18px;
+  font-size: 16px;
+}
+nav li a.products.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+nav .menu-producet {
+  text-align: right;
+}
+nav .menu-producet .detalis-1 {
+  display: none;
+}
+nav .menu-producet .detalis-2 {
+  display: none;
+}
+nav .menu-producet .detalis-3 {
+  display: none;
+}
+nav .menu-producet .detalis-4 {
+  display: none;
+}
+nav .menu-producet .detalis-5 {
+  display: none;
+}
+nav .menu-producet .detalis-6 {
+  display: none;
+}
+nav .menu-producet .detalis-7 {
+  display: none;
+}
+nav .menu-producet .detalis-8 {
+  display: none;
+}
+nav .menu-producet .detalis-9 {
+  display: none;
+}
+nav .menu-producet .detalis-10 {
+  display: none;
+}
+nav .menu-producet .detalis-11 {
+  display: none;
+}
+nav .menu-producet .detalis-12 {
+  display: none;
+}
+@media (min-width: 992px) {
+  nav .menu-producet {
+    position: absolute;
+    right: 119PX;
+    top: 55px;
+  }
+}
+nav .menu-producet .dropstart .dropdown-toggle::before {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  margin-top: -5px;
+  left: 12px;
+  opacity: 0.3;
+}
+nav .menu-producet .fa {
+  margin-left: 12px;
+  opacity: 0.3;
+}
+nav .menu-producet li > a {
+  height: 40px;
+  line-height: 40px !important;
+  padding: 0px 12px;
+  font-size: 14px;
+  position: relative;
+  width: 230px;
+  color: #333;
+}
+nav .menu-producet li > a:hover, nav .menu-producet li > a:focus {
+  color: white !important;
+}
+nav .menu-producet li > a:hover i, nav .menu-producet li > a:focus i {
+  color: white !important;
+  opacity: initial;
+}
+nav .active, nav li a.main:hover {
+  background: #dc5726;
+  color: white;
+}
+
+.dropdown-divider {
+  height: 0;
+  margin: 0 !important;
+  overflow: hidden;
+  border-top: 1px solid rgba(143, 133, 133, 0.23) !important;
+  opacity: 1;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  z-index: 990;
+  border-top: 2px solid #dc5726;
+  border-radius: 0;
+  padding: 0px !important;
+}
+
+.menu-producet .product:hover .detalis-1 {
+  display: block !important;
+  margin-top: 10px;
+}
+
+.menu-producet .spread:hover .detalis-2 {
+  display: block !important;
+  margin-top: -30px !important;
+}
+
+.menu-producet .accossri-man:hover .detalis-3 {
+  display: block !important;
+  margin-top: -70px !important;
+}
+
+.menu-producet .accossari-women:hover .detalis-4 {
+  display: block !important;
+  margin-top: -110px;
+}
+
+.menu-producet .bags:hover .detalis-5 {
+  display: block !important;
+  margin-top: -150px;
+}
+
+.menu-producet .moda:hover .detalis-6 {
+  display: block;
+  margin-top: -200px;
+}
+
+.menu-producet .orders-house:hover .detalis-7 {
+  display: block;
+  margin-top: -240px;
+}
+
+.menu-producet .cooks:hover .detalis-8 {
+  display: block;
+  margin-top: -250px;
+}
+
+.menu-producet .chosse:hover .detalis-9 {
+  display: block;
+  margin-top: -290px;
+}
+
+.menu-producet .accossari-mobial:hover .detalis-10 {
+  display: block;
+  margin-top: -350px;
+}
+
+.menu-producet .children:hover .detalis-11 {
+  display: block;
+  margin-top: -390px;
+}
+
+.menu-producet .general-producet:hover .detalis-12 {
+  display: block;
+  margin-top: -450px;
+}
+
+.detalis-1, .detalis-2, .detalis-3, .detalis-4, .detalis-5, .detalis-6, .detalis-7, .detalis-8, .detalis-9, .detalis-10, .detalis-11, .detalis-12 {
+  font-family: "Amazon Ember", arial, helvetica, sans-serif;
+  position: absolute;
+  top: 0px;
+  right: 230px;
+}
+.detalis-1 li, .detalis-2 li, .detalis-3 li, .detalis-4 li, .detalis-5 li, .detalis-6 li, .detalis-7 li, .detalis-8 li, .detalis-9 li, .detalis-10 li, .detalis-11 li, .detalis-12 li {
+  list-style: none;
+}
+.detalis-1 .dropdown-menu-category-section-content, .detalis-2 .dropdown-menu-category-section-content, .detalis-3 .dropdown-menu-category-section-content, .detalis-4 .dropdown-menu-category-section-content, .detalis-5 .dropdown-menu-category-section-content, .detalis-6 .dropdown-menu-category-section-content, .detalis-7 .dropdown-menu-category-section-content, .detalis-8 .dropdown-menu-category-section-content, .detalis-9 .dropdown-menu-category-section-content, .detalis-10 .dropdown-menu-category-section-content, .detalis-11 .dropdown-menu-category-section-content, .detalis-12 .dropdown-menu-category-section-content {
+  width: 600px;
+  padding: 10px;
+}
+.detalis-1 .dropdown-menu-category-title, .detalis-2 .dropdown-menu-category-title, .detalis-3 .dropdown-menu-category-title, .detalis-4 .dropdown-menu-category-title, .detalis-5 .dropdown-menu-category-title, .detalis-6 .dropdown-menu-category-title, .detalis-7 .dropdown-menu-category-title, .detalis-8 .dropdown-menu-category-title, .detalis-9 .dropdown-menu-category-title, .detalis-10 .dropdown-menu-category-title, .detalis-11 .dropdown-menu-category-title, .detalis-12 .dropdown-menu-category-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.detalis-1 .dropdown-menu-category-list > li > p, .detalis-2 .dropdown-menu-category-list > li > p, .detalis-3 .dropdown-menu-category-list > li > p, .detalis-4 .dropdown-menu-category-list > li > p, .detalis-5 .dropdown-menu-category-list > li > p, .detalis-6 .dropdown-menu-category-list > li > p, .detalis-7 .dropdown-menu-category-list > li > p, .detalis-8 .dropdown-menu-category-list > li > p, .detalis-9 .dropdown-menu-category-list > li > p, .detalis-10 .dropdown-menu-category-list > li > p, .detalis-11 .dropdown-menu-category-list > li > p, .detalis-12 .dropdown-menu-category-list > li > p {
+  font-size: 11px;
+  color: #9b9b9b;
+  margin: 0;
+  padding: 0;
+}
+.detalis-1 .dropdown-menu-category-list > li > a, .detalis-2 .dropdown-menu-category-list > li > a, .detalis-3 .dropdown-menu-category-list > li > a, .detalis-4 .dropdown-menu-category-list > li > a, .detalis-5 .dropdown-menu-category-list > li > a, .detalis-6 .dropdown-menu-category-list > li > a, .detalis-7 .dropdown-menu-category-list > li > a, .detalis-8 .dropdown-menu-category-list > li > a, .detalis-9 .dropdown-menu-category-list > li > a, .detalis-10 .dropdown-menu-category-list > li > a, .detalis-11 .dropdown-menu-category-list > li > a, .detalis-12 .dropdown-menu-category-list > li > a {
+  color: #595959;
+}
+.detalis-1 ul li a:hover, .detalis-2 ul li a:hover, .detalis-3 ul li a:hover, .detalis-4 ul li a:hover, .detalis-5 ul li a:hover, .detalis-6 ul li a:hover, .detalis-7 ul li a:hover, .detalis-8 ul li a:hover, .detalis-9 ul li a:hover, .detalis-10 ul li a:hover, .detalis-11 ul li a:hover, .detalis-12 ul li a:hover {
+  color: #dc5726 !important;
+  transition: all 0.3s ease-out;
+}
+.detalis-1 .background-imag, .detalis-2 .background-imag, .detalis-3 .background-imag, .detalis-4 .background-imag, .detalis-5 .background-imag, .detalis-6 .background-imag, .detalis-7 .background-imag, .detalis-8 .background-imag, .detalis-9 .background-imag, .detalis-10 .background-imag, .detalis-11 .background-imag, .detalis-12 .background-imag {
+  position: absolute;
+  bottom: -40px;
+  left: 0px !important;
+}
+.detalis-1 h5, .detalis-2 h5, .detalis-3 h5, .detalis-4 h5, .detalis-5 h5, .detalis-6 h5, .detalis-7 h5, .detalis-8 h5, .detalis-9 h5, .detalis-10 h5, .detalis-11 h5, .detalis-12 h5 {
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}/*# sourceMappingURL=search-bar.component.css.map */
